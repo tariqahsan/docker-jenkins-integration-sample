@@ -11,7 +11,7 @@ public class DockerJenkinsIntegrationSampleApplication {
 
 	@GetMapping("/message")
 	public String getMessage() {
-		return "Testing out Spring Boot Docker with Jenkins Integration";
+		return "Testing out Spring Boot Docker with Jenkins Integration with docker tag";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(DockerJenkinsIntegrationSampleApplication.class, args);
